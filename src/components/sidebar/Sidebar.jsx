@@ -30,7 +30,7 @@ const Sidebar = () => {
                         Quick Menu
                     </h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
+                        <li className="sidebarListItem">
                             <PersonOutline className='sidebarIcon' />
                             Users
                         </li>
@@ -53,7 +53,7 @@ const Sidebar = () => {
                         Notifications
                     </h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
+                        <li className="sidebarListItem">
                             <EmailOutlined className='sidebarIcon' />
                             Mail
                         </li>
@@ -72,7 +72,7 @@ const Sidebar = () => {
                         Staff
                     </h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
+                        <li className="sidebarListItem">
                             <WorkOutline className='sidebarIcon' />
                             Manage
                         </li>
