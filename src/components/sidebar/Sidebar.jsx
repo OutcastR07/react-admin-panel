@@ -1,5 +1,6 @@
 import { AttachMoney, BarChart, ChatOutlined, EmailOutlined, FeedbackOutlined, LineStyle, PersonOutline, Report, Storefront, TrendingUp, WorkOutline } from '@mui/icons-material'
 import TimelineIcon from '@mui/icons-material/Timeline';
+import { Link } from 'react-router-dom';
 import './Sidebar.css'
 
 const Sidebar = () => {
@@ -30,14 +31,18 @@ const Sidebar = () => {
                         Quick Menu
                     </h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <PersonOutline className='sidebarIcon' />
-                            Users
-                        </li>
-                        <li className="sidebarListItem">
-                            <Storefront className='sidebarIcon' />
-                            Products
-                        </li>
+                        <Link to="/users" className='link'>
+                            <li className="sidebarListItem">
+                                <PersonOutline className='sidebarIcon' />
+                                Users
+                            </li>
+                        </Link>
+                        <Link to="/products" className='link'>
+                            <li className="sidebarListItem">
+                                <Storefront className='sidebarIcon' />
+                                Products
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <AttachMoney className='sidebarIcon' />
                             Transactions
