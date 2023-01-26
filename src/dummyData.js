@@ -117,3 +117,77 @@ export const userRows = [
         transaction: '$120.00',
     },
 ];
+
+
+export const productRows = [
+    {
+        id: 1, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 2, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 3, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 4, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 5, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 6, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 7, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 8, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 9, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+    {
+        id: 10, name: 'Apple Airpods',
+        img: 'https://th.bing.com/th/id/OIP.3W4k7PO0CzL5f_19KYazMgHaEL?w=301&h=180&c=7&r=0&o=5&pid=1.7',
+        stock: 123,
+        status: 'active',
+        price: '$120.00',
+    },
+];
